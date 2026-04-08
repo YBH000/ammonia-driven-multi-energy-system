@@ -2,7 +2,7 @@
 This repository contains the source code and supporting parameter definitions for the research paper *Unlock the potential of power-to-ammonia in future multi-energy transition pathways*. The core of this project is a risk-aware power-to-ammonia (P2A)-driven multi-energy system expansion planning model, developed as a mixed-integer linear programming (MILP) framework on the MATLAB platform with the YALMIP Toolbox and Gurobi Solver. The model integrates conditional value-at-risk (CVaR) to quantify techno-economic uncertainties in low-carbon energy transition, and includes constraint sets for multi-stakeholder risk-sharing with individual rationality participation conditions.
 
 ## Code Structure
-The code is organized into six sequential functional modules, strictly aligned with the actual implementation and standard MILP modeling workflow for multi-energy system planning:
+The code is organized into six sequential functional modules, aligned with the actual implementation and standard MILP modeling workflow for multi-energy system planning:
 
 ### 1. Parameter Set Definition Module
 This module centralizes all numerical parameters required for model operation, covering the following categories:
