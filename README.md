@@ -40,3 +40,6 @@ Thermal System Constraints: Nodal thermal power balance to match the thermal loa
 Device-Level Operation Constraints: Operation characteristic constraints for each energy device, including power output limit, ramp rate, minimum on/off duration, efficiency piecewise linearization, and thermo-electrochemical dynamic model of PEM electrolyzers
 Energy Storage Constraints: SOC dynamic balance, charge/discharge power limit, and mutual exclusion constraint for battery energy storage and ammonia storage tanks
 CVaR Risk Model & Risk-Sharing Constraints: CVaR calculation for technical and financial risks, exponential utility function modeling for stakeholders with different risk preferences, and Pareto optimal constraints for multi-party risk-sharing agreements
+
+## 6. Solver Configuration Module
+This module sets the core parameters of the Gurobi solver for MILP problem solving, including MIP optimality gap, maximum solution time limit, number of parallel threads, and verbose output level, to balance the solution accuracy and computational efficiency.
