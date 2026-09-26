@@ -36,10 +36,6 @@ The MATLAB files are curated core-code copies for publication and peer review. E
 
 The main functions intentionally expose no top-level input or output interface. Reusable child functions retain their explicit interfaces so that the model call graph and mathematical formulation remain visible to readers.
 
-## SI parameter note
-
-The thermodynamic P2A equations reference the SI parameter names directly. Numerical values for several thermal, electrochemical, and conversion parameters are not supplied in the SI parameter table; these names are documented in `CHANGE_LOG.md` and must be provided by a complete implementation before numerical execution.
-
 ## Software requirements
 
 - MATLAB with the YALMIP Toolbox
